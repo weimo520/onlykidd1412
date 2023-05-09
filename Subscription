@@ -5,191 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ">🇳🇱 NL|Hs|0508|TG@FProxies|", server: 156.225.67.114, port: 443, type: vmess, uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: 156.225.67.114}, udp: true}
-  - {name: ">🇯🇵 JP|Ms|0508|TG@FProxies|", server: g01.jp03-ae5.entry.hsrtd.club, port: 488, type: ss, cipher: aes-256-gcm, password: 7aec5ef1-0ba2-37a8-b511-36c612dfd50c, udp: true}
-  - {name: ">🇭🇰 HK|Ms|0508|TG@FProxies|", server: 16.163.57.180, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: 16.163.57.180}, udp: true}
-  - {name: _CN_电报频道： @pjrjzy, server: 36.134.16.96, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇨🇦 CA|Ms|0508|TG@FProxies|", server: 192.99.247.52, port: 10001, type: vmess, uuid: 7ab642f8-eb18-11ed-b3a3-efeaa0c7ac70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vpnjantit, ws-headers: {Host: 192.99.247.52}, udp: true}
-  - {name: ">🇬🇧 GB|Hs|0508|TG@FProxies|", server: gm1g.jikenodes.xyz, port: 4001, type: vmess, uuid: 254066ea-1948-43df-8041-7f3bf423801f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gm1g.jikenodes.xyz}, udp: true}
-  - {name: ">🇬🇧 GB|Ms|0508|TG@FProxies|", server: gg.xn--gmqa02ag57d.com, port: 50355, type: trojan, password: 79aced73-bf99-335d-9b76-3fdbec1c6310, sni: gg.xn--gmqa02ag57d.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰 HK|Hs|0508|TG@FProxies|", server: suidao3.vipxgyun.com, port: 10116, type: vmess, uuid: 3594d814-969d-34c6-a6c2-6de47a95bbdc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: suidao3.vipxgyun.com}, udp: true}
-  - {name: 韩国特殊|@ripaojiedian, server: 13.124.185.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: ">🇯🇵 JP|Hs|0508|TG@FProxies|", server: cf7.biger.club, port: 2087, type: vmess, uuid: 988c8e90-6e29-45cc-8f93-4e6142eca1eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp1.biger.club}, udp: true}
-  - {name: ">🇸🇬 SG|Hs|0508|TG@FProxies|", server: gg.xn--gmqa02ag57d.com, port: 21247, type: trojan, password: 56d6c9f7-dc4e-37ed-ab3c-b0a45a4e2c1d, sni: gg.xn--gmqa02ag57d.com, skip-cert-verify: true, udp: true}
-  - {name: _CN_电报频道： @pjrjzy 2, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇸🇬 SG|Ms|0504|TG@FProxies| 2", server: f1f3227.v8.glados-config.net, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /s/f1f3227.fm.apple.com:111548, ws-headers: {Host: f1f3227.v8.glados-config.net}, udp: true}
-  - {name: 狮城特殊|@ripaojiedian, server: 54.255.243.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: ">🇭🇰 HK|Hs|0508|TG@FProxies| 2", server: suidao3.vipxgyun.com, port: 10114, type: vmess, uuid: 3594d814-969d-34c6-a6c2-6de47a95bbdc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: suidao3.vipxgyun.com}, udp: true}
-  - {name: ">🇨🇦 CA|Hs|0508|TG@FProxies|", server: gm1g.jikenodes.xyz, port: 4007, type: vmess, uuid: 254066ea-1948-43df-8041-7f3bf423801f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: board.jike99.xyz}, udp: true}
-  - {name: ">🇸🇬 SG|Ms|0504|TG@FProxies|", server: f1f3227.v4.glados-config.net, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /s/f1f3227.fm.apple.com:111548, ws-headers: {Host: f1f3227.v4.glados-config.net}, udp: true}
-  - {name: ">🇮🇳 IN|Hs|0508|TG@FProxies|", server: 16bd.duronfly.repl.co, port: 443, type: vmess, uuid: 5bc1192a-43e5-40cd-a742-cb70e9dcf8ba, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5bc1192a-43e5-40cd-a742-cb70e9dcf8ba-vm, ws-headers: {Host: 16bd.duronfly.repl.co}, udp: true}
-  - {name: ">🇸🇬 SG|Hs|0508|TG@FProxies| 2", server: 66.42.50.66, port: 80, type: trojan, password: 86523a68-b346-413c-ab61-85af7e36c3db, skip-cert-verify: true, udp: true}
-  - {name: ">🇭🇰 HK|Hs|0508|TG@FProxies| 3", server: suidao3.vipxgyun.com, port: 10113, type: vmess, uuid: 3594d814-969d-34c6-a6c2-6de47a95bbdc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: suidao3.vipxgyun.com}, udp: true}
-  - {name: ">🇨🇦 CA|Ms|0508|TG@FProxies| 2", server: hyd.eccoedmond.shop, port: 8443, type: vmess, uuid: 720f3c43-d22b-4237-8355-620fc653224e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hyd.eccoedmond.shop}, udp: true}
-  - {name: 韩国A|@ripaojiedian, server: 3.36.54.241, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: ">🇸🇬 SG|Ms|0508|TG@FProxies|", server: sg02.wxfz.gq, port: 443, type: vmess, uuid: c66abb3d-586c-4659-a38a-d3ffaeb7711e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/cctv13.m3u8?ed=2048", ws-headers: {Host: sg02.wxfz.gq}, udp: true}
-  - {name: 狮城|@ripaojiedian, server: 18.142.57.66, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: ">🇺🇸 US|Hs|0504|TG@FProxies| 2", server: cf6.biger.club, port: 2087, type: vmess, uuid: 988c8e90-6e29-45cc-8f93-4e6142eca1eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us2.biger.club}, udp: true}
-  - {name: ">🇸🇬 SG|Hs|0508|TG@FProxies| 3", server: meetzoom.disnet.gq, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmessws, ws-headers: {Host: meetzoom.disnet.gq}, udp: true}
-  - {name: ">🇺🇸 US|Hs|0508|TG@FProxies|", server: 192.74.229.208, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: 192.74.229.208}, udp: true}
-  - {name: ">🇭🇰 HK|Hs|0508|TG@FProxies| 4", server: sd-wan-hk-2.cloudspeed.online, port: 80, type: vmess, uuid: 12b6c675-edc3-4da8-b3e2-525f4ccdd3f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aws-china-media/QAcTKp3Ic-M.mp4, ws-headers: {Host: sd-wan-hk-2.cloudspeed.online}, udp: true}
-  - {name: ">🇺🇸 US|Hs|0508|TG@FProxies| 2", server: jp.tlz.asia, port: 12558, type: vmess, uuid: b0eb6e30-0557-4998-e1aa-e1bdbae0d4e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us.tlz.asia}, udp: true}
-  - {name: ">🇺🇸 US|Hs|0508|TG@FProxies| 3", server: 142.4.106.247, port: 52902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸 US|Hs|0508|TG@FProxies| 4", server: gg.xn--gmqa02ag57d.com, port: 20295, type: trojan, password: 28902714-e9ad-3ae6-ab8f-a91d2fecdc5a, sni: gg.xn--gmqa02ag57d.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸 US|Hs|0508|TG@FProxies| 5", server: gg.xn--gmqa02ag57d.com, port: 14846, type: trojan, password: 56d6c9f7-dc4e-37ed-ab3c-b0a45a4e2c1d, sni: gg.xn--gmqa02ag57d.com, skip-cert-verify: true, udp: true}
-  - {name: ">🇺🇸 US|Hs|0508|TG@FProxies| 6", server: cf2.biger.top, port: 2087, type: vmess, uuid: 988c8e90-6e29-45cc-8f93-4e6142eca1eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us2.biger.top}, udp: true}
-  - {name: ">🇳🇱 NL|Hs|0508|TG@FProxies| 2", server: 1ll1lll1llll11l1lll11ll1lll.goddid.click, port: 80, type: vmess, uuid: db30241d-c635-46c8-b161-f8341732e349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hs8tlo3nr9o.teenteam.top}, udp: true}
-  - {name: _CN_电报频道： @pjrjzy 3, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ">🇮🇳 IN|Hs|0508|TG@FProxies| 2", server: in2.25c9e320-7b14-48c9-8127-3393c7a16a2a.cloudspeed.online, port: 80, type: vmess, uuid: 12b6c675-edc3-4da8-b3e2-525f4ccdd3f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aws-china-media/QAcTKp3Ic-M.mp4, ws-headers: {Host: media.amazonwebservices.com}, udp: true}
-  - {name: 新加坡03｜频道@Cnb38, server: 43.207.204.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 新加坡06｜频道@Cnb38, server: 13.230.221.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: ">🇭🇰 HK|Hs|0509|TG@FProxies|", server: 43.154.76.92, port: 25034, type: vmess, uuid: 784272d2-bd2d-438a-bbd4-1271bb1f1b0d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hk15/getData, ws-headers: {Host: 43.154.76.92}, udp: true}
+  - {name: ">🇩🇪 DE|Hs|0509|TG@FProxies|", server: 51.89.122.185, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: 51.89.122.185}, udp: true}
+  - {name: ">🇮🇳 IN|Ms|0509|TG@FProxies|", server: 147.139.28.249, port: 10000, type: vmess, uuid: 501a7348-ebbd-11ed-b33c-00163e0114dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnjantit, ws-headers: {Host: 147.139.28.249}, udp: true}
+  - {name: ">🇨🇦 CA|Hs|0509|TG@FProxies|", server: vpnpool.stablize.top, port: 443, type: trojan, password: 38a1b8d7-d59a-4ef0-b6aa-1d362f1fa722, sni: vpnpool.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: 日本|@ripaojiedian, server: 13.213.34.54, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 美国02｜频道@Cnb38, server: 43.207.109.56, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: ">🇭🇰 HK|Hs|0508|TG@FProxies| 5", server: adobe4.fmmmz1.com, port: 80, type: vmess, uuid: 1242948c-1158-3dc6-b749-e144356199cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: adobe4.fmmmz1.com}, udp: true}
-  - {name: ">🇯🇵 JP|Hs|0508|TG@FProxies| 2", server: gzdx.jcnode.top, port: 48002, type: vmess, uuid: a63ca3e9-c2ac-48f6-b2e6-09d5b860618c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fly, ws-headers: {Host: gzdx.jcnode.top}, udp: true}
-  - {name: ">🇹🇼 TW|Hs|0508|TG@FProxies|", server: gzdx01.jcnode.top, port: 42001, type: ss, cipher: aes-256-gcm, password: a63ca3e9-c2ac-48f6-b2e6-09d5b860618c, udp: true}
+  - {name: ">🇬🇧 GB|Ms|0509|TG@FProxies|", server: gg.xn--gmqa02ag57d.com, port: 45168, type: trojan, password: 10273734-1d78-3b34-b278-daf2d3ac4270, sni: gg.xn--gmqa02ag57d.com, skip-cert-verify: true, udp: true}
+  - {name: ">🇸🇬 SG|Hs|0508|TG@FProxies|", server: 66.42.50.66, port: 80, type: trojan, password: 86523a68-b346-413c-ab61-85af7e36c3db, skip-cert-verify: true, udp: true}
+  - {name: ">🇭🇰 HK|Hs|0509|TG@FProxies| 2", server: 16.162.48.221, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: 16.162.48.221}, udp: true}
+  - {name: ">🇭🇰 HK|Hs|0509|TG@FProxies| 3", server: 43.198.97.210, port: 443, type: vmess, uuid: b8b5ecd0-8f40-423f-ba6c-14f5b089cd99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: 43.198.97.210}, udp: true}
+  - {name: ">🇬🇧 GB|Ms|0509|TG@FProxies| 2", server: uk2-vmess.greenssh.xyz, port: 80, type: vmess, uuid: cdbdf766-8994-484f-a162-596429ad4dd0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: uk2-vmess.greenssh.xyz}, udp: true}
+  - {name: ">🇩🇪 DE|Hs|0509|TG@FProxies| 2", server: de-cdn.ikuan.dev, port: 2052, type: vmess, uuid: 51c1ab5a-71ed-4347-b4d1-a0c83e75c7ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/microsoft?ed=1024", ws-headers: {Host: de05-v6.freenode.pro}, udp: true}
+  - {name: _电报频道 @shendu666, server: 129.150.58.52, port: 37214, type: vmess, uuid: a2792c27-bf3d-4a17-b178-b0a455ec506c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _CN_电报频道： @pjrjzy, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ">🇩🇪 DE|Hs|0509|TG@FProxies| 3", server: 138.201.207.4, port: 25968, type: trojan, password: EaklYS69k8, skip-cert-verify: true, udp: true}
+  - {name: ">🇬🇧 GB|Hs|0509|TG@FProxies|", server: 194.146.49.166, port: 10000, type: vmess, uuid: 7df0c7f0-eb62-11ed-af63-00163e7a9696, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnjantit, ws-headers: {Host: 194.146.49.166}, udp: true}
+  - {name: 美国3|@ripaojiedian, server: 108.186.116.175, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡03｜频道@Cnb38, server: 43.207.204.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 狮城特殊|@ripaojiedian, server: 54.255.243.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies|"
-      - ">🇯🇵 JP|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Ms|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Hs|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies|"
-      - 韩国特殊|@ripaojiedian
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy 2
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies| 2"
-      - 狮城特殊|@ripaojiedian
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 2"
-      - ">🇨🇦 CA|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies|"
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 2"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 3"
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies| 2"
-      - 韩国A|@ripaojiedian
-      - ">🇸🇬 SG|Ms|0508|TG@FProxies|"
-      - 狮城|@ripaojiedian
-      - ">🇺🇸 US|Hs|0504|TG@FProxies| 2"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 2"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 5"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 6"
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies| 2"
-      - _CN_电报频道： @pjrjzy 3
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies| 2"
-      - 新加坡03｜频道@Cnb38
-      - 新加坡06｜频道@Cnb38
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies|"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies|"
+      - ">🇮🇳 IN|Ms|0509|TG@FProxies|"
+      - ">🇨🇦 CA|Hs|0509|TG@FProxies|"
+      - 日本|@ripaojiedian
       - 美国02｜频道@Cnb38
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 5"
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies| 2"
-      - ">🇹🇼 TW|Hs|0508|TG@FProxies|"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies|"
+      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 2"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies| 2"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 2"
+      - _电报频道 @shendu666
+      - _CN_电报频道： @pjrjzy
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Hs|0509|TG@FProxies|"
+      - 美国3|@ripaojiedian
+      - 新加坡03｜频道@Cnb38
+      - 狮城特殊|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies|"
-      - ">🇯🇵 JP|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Ms|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Hs|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies|"
-      - 韩国特殊|@ripaojiedian
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy 2
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies| 2"
-      - 狮城特殊|@ripaojiedian
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 2"
-      - ">🇨🇦 CA|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies|"
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 2"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 3"
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies| 2"
-      - 韩国A|@ripaojiedian
-      - ">🇸🇬 SG|Ms|0508|TG@FProxies|"
-      - 狮城|@ripaojiedian
-      - ">🇺🇸 US|Hs|0504|TG@FProxies| 2"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 2"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 5"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 6"
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies| 2"
-      - _CN_电报频道： @pjrjzy 3
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies| 2"
-      - 新加坡03｜频道@Cnb38
-      - 新加坡06｜频道@Cnb38
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies|"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies|"
+      - ">🇮🇳 IN|Ms|0509|TG@FProxies|"
+      - ">🇨🇦 CA|Hs|0509|TG@FProxies|"
+      - 日本|@ripaojiedian
       - 美国02｜频道@Cnb38
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 5"
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies| 2"
-      - ">🇹🇼 TW|Hs|0508|TG@FProxies|"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies|"
+      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 2"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies| 2"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 2"
+      - _电报频道 @shendu666
+      - _CN_电报频道： @pjrjzy
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Hs|0509|TG@FProxies|"
+      - 美国3|@ripaojiedian
+      - 新加坡03｜频道@Cnb38
+      - 狮城特殊|@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies|"
-      - ">🇯🇵 JP|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Ms|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Hs|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies|"
-      - 韩国特殊|@ripaojiedian
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy 2
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies| 2"
-      - 狮城特殊|@ripaojiedian
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 2"
-      - ">🇨🇦 CA|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies|"
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 2"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 3"
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies| 2"
-      - 韩国A|@ripaojiedian
-      - ">🇸🇬 SG|Ms|0508|TG@FProxies|"
-      - 狮城|@ripaojiedian
-      - ">🇺🇸 US|Hs|0504|TG@FProxies| 2"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 2"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 5"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 6"
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies| 2"
-      - _CN_电报频道： @pjrjzy 3
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies| 2"
-      - 新加坡03｜频道@Cnb38
-      - 新加坡06｜频道@Cnb38
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies|"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies|"
+      - ">🇮🇳 IN|Ms|0509|TG@FProxies|"
+      - ">🇨🇦 CA|Hs|0509|TG@FProxies|"
+      - 日本|@ripaojiedian
       - 美国02｜频道@Cnb38
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 5"
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies| 2"
-      - ">🇹🇼 TW|Hs|0508|TG@FProxies|"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies|"
+      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 2"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies| 2"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 2"
+      - _电报频道 @shendu666
+      - _CN_电报频道： @pjrjzy
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Hs|0509|TG@FProxies|"
+      - 美国3|@ripaojiedian
+      - 新加坡03｜频道@Cnb38
+      - 狮城特殊|@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -208,48 +116,25 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies|"
-      - ">🇯🇵 JP|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Ms|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Hs|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies|"
-      - 韩国特殊|@ripaojiedian
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy 2
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies| 2"
-      - 狮城特殊|@ripaojiedian
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 2"
-      - ">🇨🇦 CA|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies|"
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 2"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 3"
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies| 2"
-      - 韩国A|@ripaojiedian
-      - ">🇸🇬 SG|Ms|0508|TG@FProxies|"
-      - 狮城|@ripaojiedian
-      - ">🇺🇸 US|Hs|0504|TG@FProxies| 2"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 2"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 5"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 6"
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies| 2"
-      - _CN_电报频道： @pjrjzy 3
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies| 2"
-      - 新加坡03｜频道@Cnb38
-      - 新加坡06｜频道@Cnb38
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies|"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies|"
+      - ">🇮🇳 IN|Ms|0509|TG@FProxies|"
+      - ">🇨🇦 CA|Hs|0509|TG@FProxies|"
+      - 日本|@ripaojiedian
       - 美国02｜频道@Cnb38
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 5"
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies| 2"
-      - ">🇹🇼 TW|Hs|0508|TG@FProxies|"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies|"
+      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 2"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies| 2"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 2"
+      - _电报频道 @shendu666
+      - _CN_电报频道： @pjrjzy
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Hs|0509|TG@FProxies|"
+      - 美国3|@ripaojiedian
+      - 新加坡03｜频道@Cnb38
+      - 狮城特殊|@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -260,143 +145,74 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies|"
-      - ">🇯🇵 JP|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Ms|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Hs|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies|"
-      - 韩国特殊|@ripaojiedian
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy 2
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies| 2"
-      - 狮城特殊|@ripaojiedian
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 2"
-      - ">🇨🇦 CA|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies|"
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 2"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 3"
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies| 2"
-      - 韩国A|@ripaojiedian
-      - ">🇸🇬 SG|Ms|0508|TG@FProxies|"
-      - 狮城|@ripaojiedian
-      - ">🇺🇸 US|Hs|0504|TG@FProxies| 2"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 2"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 5"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 6"
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies| 2"
-      - _CN_电报频道： @pjrjzy 3
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies| 2"
-      - 新加坡03｜频道@Cnb38
-      - 新加坡06｜频道@Cnb38
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies|"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies|"
+      - ">🇮🇳 IN|Ms|0509|TG@FProxies|"
+      - ">🇨🇦 CA|Hs|0509|TG@FProxies|"
+      - 日本|@ripaojiedian
       - 美国02｜频道@Cnb38
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 5"
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies| 2"
-      - ">🇹🇼 TW|Hs|0508|TG@FProxies|"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies|"
+      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 2"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies| 2"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 2"
+      - _电报频道 @shendu666
+      - _CN_电报频道： @pjrjzy
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Hs|0509|TG@FProxies|"
+      - 美国3|@ripaojiedian
+      - 新加坡03｜频道@Cnb38
+      - 狮城特殊|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies|"
-      - ">🇯🇵 JP|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Ms|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Hs|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies|"
-      - 韩国特殊|@ripaojiedian
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy 2
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies| 2"
-      - 狮城特殊|@ripaojiedian
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 2"
-      - ">🇨🇦 CA|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies|"
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 2"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 3"
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies| 2"
-      - 韩国A|@ripaojiedian
-      - ">🇸🇬 SG|Ms|0508|TG@FProxies|"
-      - 狮城|@ripaojiedian
-      - ">🇺🇸 US|Hs|0504|TG@FProxies| 2"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 2"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 5"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 6"
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies| 2"
-      - _CN_电报频道： @pjrjzy 3
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies| 2"
-      - 新加坡03｜频道@Cnb38
-      - 新加坡06｜频道@Cnb38
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies|"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies|"
+      - ">🇮🇳 IN|Ms|0509|TG@FProxies|"
+      - ">🇨🇦 CA|Hs|0509|TG@FProxies|"
+      - 日本|@ripaojiedian
       - 美国02｜频道@Cnb38
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 5"
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies| 2"
-      - ">🇹🇼 TW|Hs|0508|TG@FProxies|"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies|"
+      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 2"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies| 2"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 2"
+      - _电报频道 @shendu666
+      - _CN_电报频道： @pjrjzy
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Hs|0509|TG@FProxies|"
+      - 美国3|@ripaojiedian
+      - 新加坡03｜频道@Cnb38
+      - 狮城特殊|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies|"
-      - ">🇯🇵 JP|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Ms|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Hs|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies|"
-      - 韩国特殊|@ripaojiedian
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy 2
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies| 2"
-      - 狮城特殊|@ripaojiedian
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 2"
-      - ">🇨🇦 CA|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies|"
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 2"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 3"
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies| 2"
-      - 韩国A|@ripaojiedian
-      - ">🇸🇬 SG|Ms|0508|TG@FProxies|"
-      - 狮城|@ripaojiedian
-      - ">🇺🇸 US|Hs|0504|TG@FProxies| 2"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 2"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 5"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 6"
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies| 2"
-      - _CN_电报频道： @pjrjzy 3
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies| 2"
-      - 新加坡03｜频道@Cnb38
-      - 新加坡06｜频道@Cnb38
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies|"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies|"
+      - ">🇮🇳 IN|Ms|0509|TG@FProxies|"
+      - ">🇨🇦 CA|Hs|0509|TG@FProxies|"
+      - 日本|@ripaojiedian
       - 美国02｜频道@Cnb38
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 5"
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies| 2"
-      - ">🇹🇼 TW|Hs|0508|TG@FProxies|"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies|"
+      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 2"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies| 2"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 2"
+      - _电报频道 @shendu666
+      - _CN_电报频道： @pjrjzy
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Hs|0509|TG@FProxies|"
+      - 美国3|@ripaojiedian
+      - 新加坡03｜频道@Cnb38
+      - 狮城特殊|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -412,48 +228,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies|"
-      - ">🇯🇵 JP|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Ms|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Hs|0508|TG@FProxies|"
-      - ">🇬🇧 GB|Ms|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies|"
-      - 韩国特殊|@ripaojiedian
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
-      - _CN_电报频道： @pjrjzy 2
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies| 2"
-      - 狮城特殊|@ripaojiedian
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 2"
-      - ">🇨🇦 CA|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Ms|0504|TG@FProxies|"
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies|"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 2"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 3"
-      - ">🇨🇦 CA|Ms|0508|TG@FProxies| 2"
-      - 韩国A|@ripaojiedian
-      - ">🇸🇬 SG|Ms|0508|TG@FProxies|"
-      - 狮城|@ripaojiedian
-      - ">🇺🇸 US|Hs|0504|TG@FProxies| 2"
-      - ">🇸🇬 SG|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies|"
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 2"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 3"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 4"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 5"
-      - ">🇺🇸 US|Hs|0508|TG@FProxies| 6"
-      - ">🇳🇱 NL|Hs|0508|TG@FProxies| 2"
-      - _CN_电报频道： @pjrjzy 3
-      - ">🇮🇳 IN|Hs|0508|TG@FProxies| 2"
-      - 新加坡03｜频道@Cnb38
-      - 新加坡06｜频道@Cnb38
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies|"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies|"
+      - ">🇮🇳 IN|Ms|0509|TG@FProxies|"
+      - ">🇨🇦 CA|Hs|0509|TG@FProxies|"
+      - 日本|@ripaojiedian
       - 美国02｜频道@Cnb38
-      - ">🇭🇰 HK|Hs|0508|TG@FProxies| 5"
-      - ">🇯🇵 JP|Hs|0508|TG@FProxies| 2"
-      - ">🇹🇼 TW|Hs|0508|TG@FProxies|"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies|"
+      - ">🇸🇬 SG|Hs|0508|TG@FProxies|"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 2"
+      - ">🇭🇰 HK|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Ms|0509|TG@FProxies| 2"
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 2"
+      - _电报频道 @shendu666
+      - _CN_电报频道： @pjrjzy
+      - ">🇩🇪 DE|Hs|0509|TG@FProxies| 3"
+      - ">🇬🇧 GB|Hs|0509|TG@FProxies|"
+      - 美国3|@ripaojiedian
+      - 新加坡03｜频道@Cnb38
+      - 狮城特殊|@ripaojiedian
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
